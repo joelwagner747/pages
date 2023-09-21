@@ -9,3 +9,6 @@ class HomePageView(TemplateView):
 class AboutPageView(TemplateView):
     template_name = "about.html"
 # Create your views here.
+
+class ProcuctsPageView(TemplateView):
+    template_name = "products.html"
